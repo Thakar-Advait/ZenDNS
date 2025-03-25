@@ -1,0 +1,32 @@
+{
+  "name": "my-dns-server",
+  "version": "1.0.0",
+  "description": "a simple dns server using UDP and DNS protocols",
+  "keywords": [
+    "UDP",
+    "DNS",
+    "Javscript",
+    "Computer-Networks",
+    "Internet",
+    "Domains"
+  ],
+  "license": "ISC",
+  "author": "Advait Thakar",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "github:neondatabase/serverless",
+    "dns-packet": "^5.6.1",
+    "dotenv": "^16.4.7",
+    "ip": "^2.0.1",
+    "pg": "^8.14.1",
+    "redis": "^4.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
