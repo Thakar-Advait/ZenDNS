@@ -7,14 +7,14 @@ const REFUSED_CLASS_MAP = {
 };
 
 const REFUSED_TYPE_MAP = {
-    A: 1,      // IPv4 Address
-    NS: 2,     // Name Server
-    CNAME: 5,  // Canonical Name
+    A: 1,      // IPv4 Address done
+    NS: 2,     // Name Server done
+    CNAME: 5,  // Canonical Name done
     SOA: 6,    // Start of Authority
     PTR: 12,   // Pointer Record
     MX: 15,    // Mail Exchange
     TXT: 16,   // Text Record
-    AAAA: 28,  // IPv6 Address
+    AAAA: 28,  // IPv6 Address done
     SRV: 33,   // Service Record
     NAPTR: 35, // Naming Authority Pointer
     OPT: 41,   // EDNS0 Option Record

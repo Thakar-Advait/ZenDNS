@@ -17,7 +17,7 @@ dotenv.config({
 })
 
 connectDb()
-    .then(async ({ client, redisClient }) => {
+    .then(async ({ redisClient }) => {
         const server = dgram.createSocket("udp4");
 
         server.on("message", async (mssg, rminfo) => {

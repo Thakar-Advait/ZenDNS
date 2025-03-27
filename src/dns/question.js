@@ -53,3 +53,5 @@ class DNSQuestion {
 }
 
 export default DNSQuestion;
+
+// example.com    \07example\03com\0x  <label-length><label>...<null>

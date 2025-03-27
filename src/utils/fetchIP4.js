@@ -1,5 +1,5 @@
 import { Resolver } from "dns/promises";
-import { client as dbClient, redisClient as redis, sql as pgClient } from "../db/index.js";
+import { redisClient as redis, sql as pgClient } from "../db/index.js";
 
 const resolver = new Resolver();
 resolver.setServers(["8.8.8.8", "1.1.1.1"]);
